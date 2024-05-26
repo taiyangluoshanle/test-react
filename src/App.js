@@ -25,6 +25,8 @@ const App = () => {
     })
   }, [])
 
+  console.log('测试提交');
+
   return (
     <div>
       <h1>Notes</h1>
