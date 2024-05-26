@@ -23,6 +23,8 @@ const notes = [
   },
 ]
 
+console.log(notes);
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <App notes={notes} />
 )
